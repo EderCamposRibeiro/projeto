@@ -22,13 +22,13 @@ public class Processo {
     private String numeroProcessoOrigem;
 
     @Column(name = "ds_complemento")
-    private String Complemento;
+    private String complemento;
 
     @Column(name = "dt_inicio")
     private LocalDateTime dataInicio;
 
-    @Column(name = "id_jppm")
-    private Long idJppm;
+    @Column(name = "id_jbpm")
+    private Long idJbpm;
 
     @Column(name = "dt_fim")
     private LocalDateTime dataFim;
@@ -36,10 +36,10 @@ public class Processo {
     @Column(name = "nr_duracao")
     private Integer duracao;
 
-    @Column(name = "mm_actor_id")
-    private Long mmActorId;
+    @Column(name = "nm_actor_id")
+    private Long nmActorId;
 
-    @Column(name = "ds_mm_usu_cadastro_processo")
+    @Column(name = "ds_nm_usu_cadastro_processo")
     private String usuarioCadastro;
 
     @Column(name = "id_pk_tb_processo_pg")
